@@ -97,4 +97,6 @@ The assistant stays in character and redirects unrelated questions back to profe
 
 ## License
 
-This project is provided without a license. Add a license file if you intend to publish or distribute it.
+This project is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Israel Friday.
