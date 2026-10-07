@@ -1,3 +1,9 @@
+---
+title: twin-agent-pmi
+app_file: app.py
+sdk: gradio
+sdk_version: 6.29.1
+---
 # Twin Agent PMI
 
 A Gradio-based AI career twin that answers questions about a person's background, skills, experience, and professional interests. The application uses Gemini through an OpenAI-compatible API and serves as a conversational front end for a personal digital twin.
