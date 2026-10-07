@@ -1,0 +1,23 @@
+[project]
+name = "twin-agent-pmi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Israel Friday", email = "iykeprince48@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "gradio",
+    "pypdf",
+    "openai",
+    "python-dotenv",
+]
+
+[project.scripts]
+twin-agent-pmi = "twin_agent_pmi:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"

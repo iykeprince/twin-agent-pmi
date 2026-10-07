@@ -4,6 +4,7 @@ from tools import tools, handle_tool_calls
 from styles import CSS, JS, EXAMPLES
 from dotenv import load_dotenv
 import gradio as gr
+import os
 
 load_dotenv(override=True)
 
